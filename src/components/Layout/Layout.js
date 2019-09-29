@@ -1,12 +1,12 @@
 import React from "react";
-import Aux from "../../hoc/Aux";
+import Auxiliar from "../../hof/Auxiliar";
 
 const Layout = props => {
   return (
-    <Aux>
+    <Auxiliar>
       <div>Toolbar, SideDrawer, Backdrop</div>
       <main>{props.children}</main>
-    </Aux>
+    </Auxiliar>
   );
 };
 
